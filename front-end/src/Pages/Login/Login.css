@@ -1,0 +1,77 @@
+.loginPage{
+    background-color: #bdddfc;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formContainer{
+    height: 50vh;
+    width: 50vw;
+    background-color: #88bdf2;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formTitle{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.formular{
+    display: flex;
+    flex-direction: column;
+}
+
+.formLabel{
+    width: 70%;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-right: 0.5rem;
+
+}
+
+.btnLogin{
+    all:unset;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    border:none ;
+    background-color:#384959;
+    border-radius: 32px;
+    padding: 0.1rem 2rem 0.1rem 2rem;
+    color:#ffffff;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.btnSignUp{
+    all:unset;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    border:none ;
+    background-color:#384959;
+    border-radius: 32px;
+    padding: 0.1rem 2rem 0.1rem 2rem;
+    color:#ffffff;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.formWrapper{
+    display: flex;
+    padding-top:0.5rem ;
+    padding-bottom:1rem ;
+}
+
+.formInput{
+    border: none;
+    background-color: #ffffff;
+    border-radius: 30px;
+}

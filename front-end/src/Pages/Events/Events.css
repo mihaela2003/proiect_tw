@@ -1,0 +1,92 @@
+#events-page {
+  background-color: #bdddfc; 
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+#events-title {
+  font-size: 1.8rem;
+  color: #333333; 
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+#events-form {
+  background-color: #88bdf2; 
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  text-align: left;
+  width: 100%;
+  max-width: 400px; 
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1rem;
+  color: #555555; 
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color: #384959;
+  box-shadow: 0 0 5px rgba(54, 146, 54, 0.3); 
+}
+
+#create-event-button {
+  background-color: #384959;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#create-event-button:hover {
+  background-color: #384959;
+  transform: scale(1.05); 
+}
+
+#events-back-text {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  color: #555555;
+  text-align: center;
+}
+
+#go-back-button {
+  background-color: #384959;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin-top: 1rem;
+}
+
+#go-back-button:hover {
+  background-color: #384959;
+  transform: scale(1.05);
+}
